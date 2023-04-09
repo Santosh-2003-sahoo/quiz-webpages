@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link id="page_favicon" href="https://cdn-icons-png.flaticon.com/512/3406/3406898.png" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="inner-div">
+            <h2 class="question">Question</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="ans" id="ans1" class="ans">
+                    <label for="ans1" id="option1"> Answer 1</label>
+                </li>
+                <li>
+                    <input type="radio" name="ans" id="ans2" class="ans">
+                    <label for="ans2" id="option2"> Answer 2</label>
+                </li>
+                <li>
+                    <input type="radio" name="ans" id="ans3" class="ans">
+                    <label for="ans3" id="option3"> Answer 3</label>
+                </li>
+                <li>
+                    <input type="radio" name="ans" id="ans4" class="ans">
+                    <label for="ans4" id="option4"> Answer 4</label>
+                </li>
+            </ul>
+            <button id="submit" class="submitt"> submit </button>
+            
+        </div>
+        <div id="showscore" class="scorearea"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
